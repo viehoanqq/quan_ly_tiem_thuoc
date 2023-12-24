@@ -1,0 +1,12 @@
+11
+1,Bui,Viet Bao Huy,Nam,0329995912,60.0,160.0,2004-09-06,Gia Lai,khong co,2023-04-06
+2,Ngo,Truong Hieu,Nam,0214125723,60.8,172.0,2004-05-01,TP HCM,khong co,2023-06-07
+3,Nguyen,Vinh Quang,Nam,0123456789,50.5,165.5,1956-12-15,Thai Binh,mau dong,2023-07-18
+4,Tran,Thi Ngan,Nu,0987654321,42.8,153.2,1964-12-25,Ha Noi,khong co,2023-09-17
+5,Le,Chi Hao,Nam,0123456780,58.3,168.8,1975-12-10,KonTum,khong co,2023-10-02
+6,Nguyen,Viet Hoang,Nam,0123456781,46.7,162.3,1990-12-14,Binh Duong,khong co,2023-10-22
+7,Bui,Nguyen Hong Ngan,Nu,0987654322,37.2,145.7,2012-12-20,Binh Phuoc,dong kinh,2023-11-21
+8,Ho,Van Phuc,Nam,0123456782,55.1,167.0,2007-12-12,Gia Lai,khong co,2023-12-01
+9,Pham,Thi My Duyen,Nu,0979412245,42.6,154.2,2004-02-05,Binh Duong,khong co,2023-12-09
+10,Bui,Viet Hai,Nam,0979211186,55.2,165.7,1972-02-02,Gia Lai,khong co,2023-12-14
+11,Tran,Thi Ngoc Linh,Nu,0579321682,45.0,157.9,1999-02-28,Thai Binh,viem xoang,2023-12-17
