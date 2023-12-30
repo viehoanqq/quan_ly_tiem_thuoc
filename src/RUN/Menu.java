@@ -1,7 +1,7 @@
 package RUN;
 
 import java.util.Scanner;
-import THUOC.DANHSACHTHUOC;
+import THUOC.QUANLIDSTHUOC;
 import NHANVIEN.QUANLIDSNhanVien;
 import QUANLYNHAPHANG.QUANLYNHAPHANG;
 import NHACUNGCAP.QUANLIDSNhaCungCap;
@@ -9,12 +9,11 @@ import DONTHUOC.QUANLIDSDonThuoc;
 import BENHNHAN.QuanLyDSBN;
 import BacSi.QUANLIDSBACSI;
 import HOADON.QUANLIDSHoaDon;
-import THUOC.QUANLIDSTHUOC;
 import PhieuKham.QLDSPHIEUKHAM;
 public class Menu {
     Scanner mayScanner = new Scanner(System.in);
 
-    DANHSACHTHUOC trinhqlThuoc = new DANHSACHTHUOC();
+    QUANLIDSTHUOC trinhqlThuoc = new QUANLIDSTHUOC();
     QUANLIDSNhanVien trinhqlNhanVien = new QUANLIDSNhanVien();
     QUANLYNHAPHANG trinhqlNhapHang = new QUANLYNHAPHANG();
     QUANLIDSNhaCungCap trinhqlNCC = new QUANLIDSNhaCungCap();
@@ -29,12 +28,6 @@ public class Menu {
 
         // khong biet doc o dau nen doc o day
 
-
-        try{
-        trinhqlThuoc.docData("D:\\phongMach_THUOC\\quanLiPhongMach\\data\\dataThuoc.txt" );
-        } catch(Exception E){
-            System.out.println("loi !");
-        }
         int option = 0;
         do {
             System.out.println(
@@ -62,7 +55,7 @@ public class Menu {
             }
 
             if(option == 1) {
-                trinhqlThuoc.menuThaoTac();
+                trinhqlThuoc.trinhQuanLiDanhSachThuoc();
                 // trinhQuanlidsthuoc.trinhQuanLiDanhSachThuoc();
             }
             if(option == 2) {
